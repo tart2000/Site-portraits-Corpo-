@@ -4,7 +4,13 @@
 p {
     font-size: 1.2em;
 }
+.reading {
+    float: right;
+}
 .footer {
     margin-top: 30px;
     margin-bottom: 30px;
+}
+.right {
+    float: right;
 }
