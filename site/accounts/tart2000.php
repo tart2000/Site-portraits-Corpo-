@@ -6,9 +6,12 @@ password: >
   $2a$10$c2vTnAiewlBQTGoqMVopge7HFvaZ07/vgBhBwUB4ma2n/mh3eLFCi
 language: fr
 role: admin
-token: 77fe8aa1e007e243e058d398a933594d7c677934
+token: 0b0b63770f537655c78dcc739e0c742dda592013
 history:
-  - livres/em-lyon-livre-1
-  - livres/em-lyon-livre-2
-  - livres/em-lyon-livre-1/super-dupont
-  - livres/em-lyon-livre-1/jean-michel-good
+  - livres/em-lyon-livre-1/dominique-delport
+  - >
+    livres/em-lyon-livre-1/dominique-delport/en
+  - livres/em-lyon-livre-1/eric-bellion
+  - >
+    livres/em-lyon-livre-1/jacques-bungert-et-frederic-torloting/en
+  - livres/em-lyon-livre-1/eric-bellion/en

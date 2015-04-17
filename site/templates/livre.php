@@ -21,14 +21,29 @@
 
     </div>
 <hr>
+    <!-- Portraits -->
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <?php foreach ($page->children() as $p) : ?>
-                <a href="<?php echo $p->url()  ?>"><h3><?php echo $p->title() ?></h3></a>
-                <p><?php echo $p->text()->excerpt(400) ?> </p>
-                <a href="<?php echo $p->url()  ?>">Lire <i class="fa fa-arrow-right"></i></a> 
-                <em class="reading">Lecture : <?php echo $p->text()->readingtime() ?></em>
-                <hr>
+              <div class="row">
+                <div class="col-xs-11">
+                  <h2><a href="<?php echo $p->url()  ?>"><?php echo $p->title() ?> - <?php echo $p->company() ?></a></h2>
+                </div>
+                <div class="col-xs-1">
+                  <?php if ($p->children() != '') : ?>
+                    <div class="flag">
+                      <a href="<?php echo $p->children()->first()->url() ?>"><img src="/assets/images/flag_en.gif"></a>
+                    </div>
+                  <?php endif ?>
+                </div>
+                <div class="col-md-12">
+                  <p><strong><?php echo $p->baseline() ?></strong></p>
+                  <p><?php echo $p->text()->excerpt(400) ?> </p>
+                  <a href="<?php echo $p->url()  ?>">Lire <i class="fa fa-arrow-right"></i></a> 
+                  <em class="reading">Lecture : <?php echo $p->text()->readingtime() ?></em>
+                  <hr>
+                </div>
+              </div> <!-- end row -->
             <?php endforeach ?>
         </div>
     </div>

@@ -3,16 +3,15 @@
   <main class="container bmt" role="main">
     <div class="row">
       <div class="col-md-8 col-md-offset-2">
-        <h1><?php echo $page->title()->html() ?></h1>
+        <h1><?php echo $page->parent()->title()->html() ?></h1>
         <hr>
         <h2><?php echo $page->company() ?></h2>
         <h3><?php echo $page->baseline() ?>.</h3>
-        <?php if ($page->children() != '') : ?>
+
           <div class="flag">
-            <a href="<?php echo $page->children()->first()->url() ?>"><img src="/assets/images/flag_en.gif"></a>
+            <a href="<?php echo $page->parent()->url() ?>"><i class="fa fa-arrow-left"></i> Retour</a>
           </div>
 
-        <?php endif ?>
 
       </div>
     </div>

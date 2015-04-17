@@ -1,3 +1,13 @@
+h1 {
+    font-weight: 400;
+}
+h2 {
+    font-weight: 200;
+}
+h3 {
+    font-style: italic;
+    color: grey;
+}
 .bmt {
     margin-top: 45px;
 }
@@ -11,6 +21,21 @@ p {
     margin-top: 30px;
     margin-bottom: 30px;
 }
+.center {
+    text-align: center;
+}
 .right {
     float: right;
+}
+.flag {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.quote {
+    padding-top: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 15px;
+    font-size: 1.4em;
 }
