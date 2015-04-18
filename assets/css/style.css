@@ -46,3 +46,8 @@ p {
     padding-bottom: 15px;
     font-size: 1.4em;
 }
+.company {
+    position: relative;
+    top: 5px;
+    left: -4px;
+}

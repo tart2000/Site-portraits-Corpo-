@@ -1,19 +1,20 @@
 <?php snippet('header') ?>
 
   <main class="container bmt" role="main">
-    <div class="row">
+    <div class="row bmt">
+
       <div class="col-md-8 col-md-offset-2">
         <h1><?php echo $page->parent()->title()->html() ?></h1>
         <hr>
-        <h2><?php echo $page->company() ?></h2>
+        <?php if ($page->parent()->companyLink() != '') : ?>
+          <a href="<?php echo $page->companyLink() ?>" target="_blank"><i class="fa fa-external-link company right"></i></a><h2><?php echo $page->company() ?></h2> 
+        <?php endif ?>
         <h3><?php echo $page->baseline() ?>.</h3>
-
           <div class="flag">
             <a href="<?php echo $page->parent()->url() ?>"><i class="fa fa-arrow-left"></i> Retour</a>
           </div>
-
-
       </div>
+
     </div>
     <hr>
     <div class="row bmb">
