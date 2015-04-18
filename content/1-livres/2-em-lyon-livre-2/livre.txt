@@ -1,4 +1,4 @@
-Title: EM Lyon - livre 2
+Title: Les visages de la croissance
 
 ----
 
@@ -11,3 +11,11 @@ Embbedlink:
 ----
 
 Text: 
+
+----
+
+Client: CCI Lyon
+
+----
+
+Clientlink: 

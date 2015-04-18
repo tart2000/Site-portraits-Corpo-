@@ -12,6 +12,11 @@
           <h1><i class="fa fa-book"></i>  <?php echo $page->title()->html() ?></h1>
           <p><strong>Date de parution : <?php echo $page->date('d/m/y','parution') ?></strong></p>
           <?php echo $page->text()->kirbytext() ?>
+          <?php if ($page->documents() != '') : ?>
+            <div class="row center">
+              <a href="<?php echo $page->files()->first()->url() ?>" download class="btn btn-default">Télécharger <i class="fa fa-download"></i></a>
+            </div>
+          <?php endif ?>
         </div>
         <div class="col-md-1">
             <?php if($next = $page->nextVisible()): ?>
@@ -49,7 +54,7 @@
     </div>
 
     <!-- Navigation -->
-    <div class="row mt">
+    <div class="row bmt">
         <div class="col-md-10 col-md-offset-1">
               <?php if($prev = $page->prevVisible()): ?>
                 <a href="<?php echo $prev->url() ?>" class="left"><i class="fa fa-caret-left fa-4x"></i></a>

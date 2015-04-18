@@ -3,7 +3,7 @@
 title: Livre
 pages: 
   template: portrait
-files: false
+files: true
 fields:
   title:
     label: Titre
@@ -14,6 +14,14 @@ fields:
     width: 1/2
   embbedLink: 
     label: Embed link
+    type: Url
+    width: 1/2
+  client: 
+    label: Client 
+    type: text 
+    width: 1/2
+  clientLink: 
+    label: Lien client
     type: Url
     width: 1/2
   text:

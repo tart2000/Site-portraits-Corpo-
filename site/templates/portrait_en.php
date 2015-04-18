@@ -16,7 +16,7 @@
       </div>
     </div>
     <hr>
-    <div class="row">
+    <div class="row bmb">
       <div class="col-md-8 col-md-offset-2">
         <div class="text">
           <?php echo $page->text()->kirbytext() ?>
