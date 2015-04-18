@@ -1,7 +1,10 @@
 <?php snippet('header') ?>
 
   <main class="container bmt" role="main">
-    <div class="row bmt">
+    <div class="row bmt center">
+      <a href="<?php echo $page->parent()->url() ?>">Retour</a>
+    </div>
+    <div class="row mt">
       <div class="col-md-1 col-md-offset-1">
         <?php if($prev = $page->prevVisible()): ?>
           <a href="<?php echo $prev->url() ?>"><i class="fa fa-caret-left fa-4x bmt"></i></a>
