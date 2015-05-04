@@ -10,11 +10,24 @@
         </div>
         <div class="col-md-8">
           <h1><i class="fa fa-book"></i>  <?php echo $page->title()->html() ?></h1>
-          <p><strong>Date de parution : <?php echo $page->date('d/m/y','parution') ?></strong></p>
-          <?php echo $page->text()->kirbytext() ?>
+          <em>Date de parution : <?php echo $page->date('d/m/y','parution') ?></em>
+          <div class="row">
+            <?php if ($page->images() != '') : ?>
+              <div class="col-xs-9">
+                <?php echo $page->text()->kirbytext() ?>
+              </div>
+              <div class="col-xs-3">
+                <img src="<?php echo $page->images()->first()->url() ?>" class="img-responsive">
+              </div>
+            <?php else : ?>
+              <div class="col-md-12">
+                <?php echo $page->text()->kirbytext() ?>
+              </div>
+            <?php endif ?>
+          </div>
           <?php if ($page->documents() != '') : ?>
             <div class="row center">
-              <a href="<?php echo $page->files()->first()->url() ?>" download class="btn btn-default">Télécharger <i class="fa fa-download"></i></a>
+              <a href="<?php echo $page->documents()->first()->url() ?>" download class="btn btn-default">Télécharger en format PDF <i class="fa fa-download"> </i></a>
             </div>
           <?php endif ?>
         </div>

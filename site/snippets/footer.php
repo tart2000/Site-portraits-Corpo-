@@ -2,13 +2,13 @@
   <footer class="footer container" role="contentinfo">
 
     <div class="row">
-        <div class="col-md-2">
+        <div class="col-sm-4">
           <?php echo $site->copyright()->kirbytext() ?>
         </div>
-        <div class="col-md-8">
-
+        <div class="col-sm-4">
+          <a href="http://corpoe.com" target="_blank"><img src="<?php echo $site->url() ?>/assets/images/logo_corpoe.png" class="img-responsive"></a>
         </div>
-        <div class="colophon">
+        <div class="col-sm-4 right">
           <a href="http://arthurschmitt.com">Construit par Arthur Schmitt</a>
         </div>
     </div>

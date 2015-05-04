@@ -8,7 +8,7 @@
             <h2><i class="fa fa-book"></i>  <a href="<?php echo $livre->url() ?>"><?php echo $livre->title()->html() ?></a></h2>
             <hr>
             <?php foreach ($livre->children() as $p) : ?>
-                <p><a href="<?php echo $p->url() ?>"><?php echo $p->title() ?></a></p>
+                <p><a href="<?php echo $p->url() ?>"><strong><?php echo $p->title() ?></strong><br> <?php echo $p->company() ?></a></p>
             <?php endforeach ?>
         </div>
       <?php endforeach ?>

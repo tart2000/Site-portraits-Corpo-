@@ -1,8 +1,10 @@
 <?php snippet('header') ?>
 
   <main class="container bmt" role="main">
-    <div class="row bmt">
-
+    <div class="row bmt center">
+      <a href="<?php echo $page->parent()->url() ?>">Retour</a>
+    </div>
+    <div class="row mt">
       <div class="col-md-8 col-md-offset-2">
         <h1><?php echo $page->parent()->title()->html() ?></h1>
         <hr>
@@ -10,9 +12,6 @@
           <a href="<?php echo $page->companyLink() ?>" target="_blank"><i class="fa fa-external-link company right"></i></a><h2><?php echo $page->company() ?></h2> 
         <?php endif ?>
         <h3><?php echo $page->baseline() ?>.</h3>
-          <div class="flag">
-            <a href="<?php echo $page->parent()->url() ?>"><i class="fa fa-arrow-left"></i> Retour</a>
-          </div>
       </div>
 
     </div>
