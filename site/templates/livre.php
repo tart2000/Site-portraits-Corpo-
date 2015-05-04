@@ -10,7 +10,7 @@
         </div>
         <div class="col-md-8">
           <h1><i class="fa fa-book"></i>  <?php echo $page->title()->html() ?></h1>
-          <em>Date de parution : <?php echo $page->date('d/m/y','parution') ?></em>
+          <em>Date de parution : <?php echo $page->date('d/m/y','parution') ?> - <?php echo $page->children()->count() ?> portraits</em>
           <div class="row">
             <?php if ($page->images() != '') : ?>
               <div class="col-xs-9">
