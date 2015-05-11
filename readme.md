@@ -1,79 +1,33 @@
-# Kirby
+# Site des portraits de Corpoé 
 
-Kirby is a file-based CMS.
-Easy to setup. Easy to use. Flexible as hell.
+Accéder à l'interface de controle : /panel
 
-## Trial
+## livres 
+De nouveaux livres peuvent être ajoutés. 
+On peut ajouter une image pour la couverture du livre en cliquant sur 'Ajouter' dans la colonne 'Fichier'.
 
-You can try Kirby on your local machine or on a test
-server as long as you need to make sure it is the right
-tool for your next project.
+## Portraits
 
-## Buy a license
+Une fois sur le panel de description d'un livre, on peut ajouter une 'page' sur la colonne de gauche. 
+Une fois le nouveau portrait ajouté, il faut cliquer dessus pour pouvoir ajouter du contenu. 
 
-You can purchase your Kirby license at
-<http://getkirby.com/buy>
+N'oubliez pas d'appuyer sur 'Enregistrer' pour sauvegarder les modifications ! 
 
-A Kirby license is valid for a single domain. You can find
-Kirby's license agreement here: <http://getkirby.com/license>
+### Citations
 
-## The Starterkit
+On peut ajouter une citation dans le texte du portrait. 
+Pour cela, ajouter un signe '>' suivi d'un espace au début de la ligne. 
+Si la citation est en plusieurs lignes, ajouter un signe '>' à chaque début de ligne.  
 
-Kirby's Starterkit comes with a small demo website and a fully
-configured panel. Feel free to modify it and play with it as
-much as you like.
+### Ordre 
 
-## The Panel
+Les portraits d'un livre peuvent être ordonnés. 
+Pour cela, aller sur la description du livre et cliquer sur 'Modifier' dans le panneau 'Pages'.
+Il suffit ensuite de glisser (drag & dropper) les portraits dans la colonne de gauche et de les mettre dans l'ordre désiré. 
+Le numéro à côté du portrait donne son ordre. 
 
-You can find the login for Kirby's admin interface at
-http://yourdomain.com/panel. You will be guided through the signup
-process for your first user, when you visit the panel
-for the first time.
+### Traduction 
 
-## Installation
-
-Kirby does not require a database, which makes it very easy to
-install. Just copy Kirby's files to your server and visit the
-URL for your website in the browser.
-
-**Please check if the invisible .htaccess file has been
-copied to your server correctly**
-
-### Requirements
-
-Kirby runs on PHP 5.3+, Apache or Nginx.
-
-### Download
-
-You can download the latest version of the Starterkit
-from http://download.getkirby.com
-
-### With Git
-
-If you are familiar with Git, you can clone Kirby's
-Starterkit repository from Github.
-
-    git clone --recursive https://github.com/getkirby/starterkit.git
-
-## Documentation
-<http://getkirby.com/docs>
-
-## Issues and feedback
-
-If you have a Github account, please report issues
-directly on Github:
-
-- <https://github.com/getkirby/kirby/issues>
-- <https://github.com/getkirby/panel/issues>
-- <https://github.com/getkirby/starterkit/issues>
-
-Otherwise you can use Kirby's forum: http://getkirby.com/forum
-or send us an email: <support@getkirby.com>
-
-## Support
-<http://getkirby.com/support>
-
-## Copyright
-
-© 2009-2014 Bastian Allgeier (Bastian Allgeier GmbH)
-<http://getkirby.com>
+Chaque portrait peut avoir une traduction anglaise. 
+Pour cela, sur la page portrait, cliquer sur 'Ajouter' sur la colonne 'Pages'. 
+Nommer cette page 'en', puis cliquer dessus pour ajouter du contenu. 

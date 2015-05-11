@@ -11,8 +11,6 @@
 
     <?php snippet('livres') ?>
 
-    <hr>
-
     <?php snippet('portrait_hasard') ?>
 
   </main>
