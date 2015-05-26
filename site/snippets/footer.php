@@ -3,7 +3,7 @@
 
     <div class="row">
         <div class="col-sm-4">
-          <?php echo $site->copyright()->kirbytext() ?>
+          <em><?php echo $site->copyright()->kirbytext() ?></em>
         </div>
         <div class="col-sm-4">
           <a href="http://corpoe.com" target="_blank"><img src="<?php echo $site->url() ?>/assets/images/logo_corpoe.png" class="img-responsive"></a>

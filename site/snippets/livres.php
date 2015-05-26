@@ -1,7 +1,7 @@
 
 
 <div class="container">
-  <h2>Livres</h2>
+  <h2><?php echo page('livres')->title() ?></h2>
   <div class="row">
       <?php foreach(page('livres')->children() as $livre): ?>
         <div class="col-md-12">

@@ -31,13 +31,16 @@ h3 {
 .bmt {
     margin-top: 45px;
 }
+.bpt {
+    padding-top: 45px;
+}
 .mt {
     margin-top: 15px;
 }
 .bmb {
     margin-bottom: 45px;
 }
-p {
+p, .row li {
     font-size: 1.4em;
 }
 .reading {
