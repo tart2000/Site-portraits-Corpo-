@@ -45,7 +45,18 @@
             <?php foreach ($page->children() as $p) : ?>
               <div class="row">
                 <div class="col-xs-11">
-                  <h2><a href="<?php echo $p->url()  ?>"><?php echo $p->title() ?> - <?php echo $p->company() ?></a></h2>
+                  <?php if ($p->hasImages()) : ?>
+                    <div class="thumb col-xs-3 mt">
+                      <?php echo thumb($p->images()->first(), array('width' => 400, 'height' => 400, 'crop' => true)); ?>
+                    </div>
+                    <div class="col-xs-9">
+                      <h2><a href="<?php echo $p->url()  ?>"><?php echo $p->title() ?> - <?php echo $p->company() ?></a></h2>
+                      <p><strong><?php echo $p->baseline() ?></strong></p>
+                    </div>
+                  <?php else : ?>
+                    <h2><a href="<?php echo $p->url()  ?>"><?php echo $p->title() ?> - <?php echo $p->company() ?></a></h2>
+                    <p><strong><?php echo $p->baseline() ?></strong></p>
+                  <?php endif ?>
                 </div>
                 <div class="col-xs-1">
                   <?php if ($p->children() != '') : ?>
@@ -55,7 +66,6 @@
                   <?php endif ?>
                 </div>
                 <div class="col-md-12">
-                  <p><strong><?php echo $p->baseline() ?></strong></p>
                   <p><?php echo $p->text()->excerpt(400) ?> </p>
                   <a href="<?php echo $p->url()  ?>">Lire <i class="fa fa-arrow-right"></i></a> 
                   <em class="reading">Lecture : <?php echo $p->text()->readingtime() ?></em>

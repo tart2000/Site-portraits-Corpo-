@@ -71,7 +71,13 @@ p, .row li {
     left: -4px;
 }
 .a-port {
-    min-height: 95px;
+    min-height: 155px;
+}
+.thumb img {
+    max-width: 100%;
+    border-radius: 50%;
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%)
 }
 .footer {
     margin-top: 30px;

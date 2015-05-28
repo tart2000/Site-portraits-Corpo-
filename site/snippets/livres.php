@@ -31,7 +31,17 @@
           <div class="row collapse" id="collapse<?php echo $livre->dirname() ?>">
             <?php foreach ($livre->children() as $p) : ?>
               <div class="col-md-4 col-sm-6 a-port">
-                <p><a href="<?php echo $p->url() ?>"><strong><?php echo $p->title() ?></strong><br> <?php echo $p->company() ?></a></p>
+                <?php if ($p->hasImages()) :?>
+                  <div class="col-xs-3 thumb mt">
+                    <?php echo thumb($p->images()->first(), array('width' => 100, 'height' => 100, 'crop' => true)); ?>
+                  </div>
+                  <div class="col-xs-9">
+                    <p><a href="<?php echo $p->url() ?>"><strong><?php echo $p->title() ?></strong><br> <?php echo $p->company() ?></a></p>
+                  </div>
+                  <div class="clearfix"></div>
+                <?php else : ?>
+                  <p><a href="<?php echo $p->url() ?>"><strong><?php echo $p->title() ?></strong><br> <?php echo $p->company() ?></a></p>
+                <?php endif ?>
               </div>
             <?php endforeach ?>
             <div class="col-md-12">

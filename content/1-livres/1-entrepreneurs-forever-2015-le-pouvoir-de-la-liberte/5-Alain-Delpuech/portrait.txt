@@ -1,0 +1,41 @@
+Title: Alain Delpuech
+
+----
+
+Company: Directeur des infrastructures et services informatiques du groupe Sanofi
+
+----
+
+Companylink: http://www.sanofi.com/
+
+----
+
+Programme: MBA 1997
+
+----
+
+Baseline:  Il vit la révolution des technologies de l’information chez l’un des principaux acteurs de la santé dans le monde
+
+----
+
+Text: 
+
+Ingénieur en aéronautique, Alain Delpuech  a changé plusieurs fois de plan de vol, délaissant les voies routinières pour les turbulences du changement.
+Travaillant à ses débuts chez Dassault Aviation sur un détail du Rafale, il se rend compte qu’il n’est pas à sa place. « Il me manquait la vision globale. » 
+
+Il devient en 1989 consultant pour le secteur défense et aéronautique chez Accenture. Une mission de trois semaines l’envoie chez un grand compte en pleine transformation de son système d’information. Elle durera… quatre ans et Alain Delpuech ne quittera plus les métiers de l’informatique. « J’ai appris à simplifier la complexité, c’est clé aujourd’hui. »
+
+En 1996, au gré d’une opportunité professionnelle sur Lyon pour son épouse, il décide de compléter sa formation technique par le MBA d’EMLYON et choisit le cursus en anglais, jumelé avec l’Université de Cranfield (Royaume-Uni). « Je l’ai fait pour améliorer mon niveau de langues ; j’ai baigné dans un environnement anglo-saxon qui a élargi mon horizon vers la finance et la stratégie. »
+
+> En expliquant ce que l’on fait, en délivrant ce que l’on promet, on gagne en crédibilité et en confiance, et donc en liberté. Mais ça ne suffit pas. Inspirons-nous des Américains, qui travaillent à fond leur employabilité, avec les langues, les défis technologiques, les responsabilités, les projets complexes, pour garder tout au long de leur parcours le maximum de choix.
+
+Il met ensuite le cap sur Sanofi Pasteur MSD, jeune joint venture entre deux leaders des vaccins, Sanofi Pasteur et Merck. « J’ai apprécié une histoire marquée par des entrepreneurs et une organisation européenne très opérationnelle. Tout était à faire. » Durant six ans, il développe nombre de projets SI, consolide les équipes sur cinq pays et élargit ses responsabilités aux achats et à la gestion de l’immobilier, prémices d’une fonction ‘’services centraux’’. « Une fois tout mis en place, j’ai craint la routine. »
+
+Sanofi Pasteur lui propose en 2002 de diriger les systèmes d’information pour la France.  Il doit intégrer le changement d’échelle et de process chez ce gros porteur : 14 000 collaborateurs répartis en France et en Amérique du Nord et une organisation matricielle qui, outre l’animation de ses équipes, donne à Alain Delpuech une responsabilité sur les infrastructures globales et l’un des quatre groupes applicatifs métiers (opérations commerciales).  Pour ajouter l’expatriation à son expérience, il passe trois ans en Pennsylvanie, au poste équivalent pour l’Amérique du Nord. 
+ 
+A son retour à Lyon fin 2010, la transformation de la maison mère Sanofi est en phase d’approche. Il succède d’abord au DSI de Sanofi Pasteur. Et hésite quand il est pressenti comme responsable des infrastructures et services pour le groupe Sanofi, en pleine consolidation. « La mise en œuvre d’une stratégie déjà définie s’annonçait lourde et difficile. Le risque était élevé. »
+Il réalise un diagnostic en six semaines et prend des décisions tranchées : focalisation sur les projets phares et sélection des meilleurs aux postes clés... « Dès qu’on s’engage dans l’action, les choses deviennent moins difficiles. Si on se contente de les regarder, elles deviennent de plus en plus difficiles. Bien sûr, la pression est forte, on suspend parfois sa respiration. Il faut une équipe qui partage une grande confiance et une vraie solidarité. » 
+Trois ans plus tard, le programme est presque achevé. Alain Delpuech coordonne aujourd’hui une équipe de 800 personnes sur trois continents et dix-sept pays, avec une dizaine de managers en direct de Sao Paulo à Singapour, trois ‘’data centers’’, trois ‘’services desks’’ et l’ensemble des réseaux, équipements et outils collaboratifs… 
+
+S’il a pris de l’altitude, Alain Delpuech aime toujours la voltige de l’innovation. « Les Big data et les objets connectés sont des sujets très sérieux dans la santé. Le numérique n’a pas fini de révolutionner nos vies. »
+
