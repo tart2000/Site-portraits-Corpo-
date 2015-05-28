@@ -50,12 +50,14 @@
                       <?php echo thumb($p->images()->first(), array('width' => 400, 'height' => 400, 'crop' => true)); ?>
                     </div>
                     <div class="col-xs-9">
-                      <h2><a href="<?php echo $p->url()  ?>"><?php echo $p->title() ?> - <?php echo $p->company() ?></a></h2>
-                      <p><strong><?php echo $p->baseline() ?></strong></p>
+                      <a href="<?php echo $p->url()  ?>"><h1><?php echo $p->title() ?></h1>
+                      <h2><?php echo $p->company() ?></h2></a>
+                      <h3><?php echo $p->baseline() ?></h3>
                     </div>
                   <?php else : ?>
-                    <h2><a href="<?php echo $p->url()  ?>"><?php echo $p->title() ?> - <?php echo $p->company() ?></a></h2>
-                    <p><strong><?php echo $p->baseline() ?></strong></p>
+                    <a href="<?php echo $p->url()  ?>"><h1><?php echo $p->title() ?></h1>
+                    <h2><?php echo $p->company() ?></h2></a>
+                    <h3><?php echo $p->baseline() ?></h3>
                   <?php endif ?>
                 </div>
                 <div class="col-xs-1">
