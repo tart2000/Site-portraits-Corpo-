@@ -26,9 +26,6 @@
             <h2><?php echo $page->company() ?></h2>
           <?php endif ?>
           <h3><?php echo $page->baseline() ?>.</h3>
-          <?php if ($page->programme() != '') : ?>
-            <em>EM Lyon : <?php echo $page->programme() ?></em>
-          <?php endif ?>
           <?php if ($page->children() != '') : ?>
             <div class="flag">
               <a href="<?php echo $page->children()->first()->url() ?>"><img src="/assets/images/flag_en.gif"></a>
@@ -61,6 +58,10 @@
       <div class="col-md-8 col-md-offset-2">
         <div class="text">
           <?php echo $page->text()->kirbytext() ?>
+          <hr>
+          <?php if ($page->programme() != '') : ?>
+            <em>EM Lyon : <?php echo $page->programme() ?></em>
+          <?php endif ?>
         </div>
       </div>
     </div>

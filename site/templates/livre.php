@@ -46,10 +46,10 @@
               <div class="row">
                 <div class="col-xs-11">
                   <?php if ($p->hasImages()) : ?>
-                    <div class="thumb col-xs-3 mt">
+                    <div class="thumb col-sm-4 mt">
                       <?php echo thumb($p->images()->first(), array('width' => 400, 'height' => 400, 'crop' => true)); ?>
                     </div>
-                    <div class="col-xs-9">
+                    <div class="col-sm-8">
                       <a href="<?php echo $p->url()  ?>"><h1><?php echo $p->title() ?></h1>
                       <h2><?php echo $p->company() ?></h2></a>
                       <h3><?php echo $p->baseline() ?></h3>
@@ -67,6 +67,7 @@
                     </div>
                   <?php endif ?>
                 </div>
+                <div class="clearfix"></div>
                 <div class="col-md-12">
                   <p><?php echo $p->text()->excerpt(400) ?> </p>
                   <a href="<?php echo $p->url()  ?>">Lire <i class="fa fa-arrow-right"></i></a> 

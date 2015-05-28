@@ -6,7 +6,7 @@
             <h3><?php echo $p->baseline() ?></h3>
             <hr>
             <div class="text">
-                <p><?php echo $p->text()->excerpt(700) ?> <a href="<?php echo $p->url() ?>">Lire <i class="fa fa-arrow-right"></i></a></p>
+                <p><?php echo $p->text()->excerpt(700) ?> </p> <a href="<?php echo $p->url() ?>">Lire <i class="fa fa-arrow-right"></i></a>
             </div>
         <?php endforeach ?>
     </div>
