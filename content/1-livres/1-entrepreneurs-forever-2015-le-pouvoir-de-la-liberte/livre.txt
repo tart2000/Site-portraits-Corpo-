@@ -10,4 +10,5 @@ Embbedlink:
 
 ----
 
-Text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+Text: Le réseau FOREVER, qui réunit les diplômés d’EMLYON Business School, m’a confié en 2013 la réalisation de la collection Entrepreneurs Forever, qui chaque année durant cinq ans, présente vingt portraits de ses anciens élèves.
+En 2015, ils sont 10 hommes et 10 femmes, témoignant par leur force et leur diversité, du champ des possibles offert par cette Ecole dont je suis également diplômée. J’ai souhaité traduire ce qui les distingue comme ce qui les rassemble : la richesse des talents, l’imagination, le sens du défi et du risque, l’approche d’un monde global, l’énergie dans les difficultés, le sentiment de liberté et de responsabilité, l’enthousiasme à créer de la valeur et des liens.

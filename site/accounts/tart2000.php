@@ -6,8 +6,9 @@ password: >
   $2a$10$c2vTnAiewlBQTGoqMVopge7HFvaZ07/vgBhBwUB4ma2n/mh3eLFCi
 language: fr
 role: admin
-token: d54a4fa5dee006d891a58c69e2fcc9ab9d3c4ff1
+token: a972aa513d66be3a90e39c5af1aeb1488f277a4c
 history:
+  - tous-les-portraits
   - >
     livres/entrepreneurs-forever-2014/brigitte-et-luc-zeller/en
   - >
@@ -16,5 +17,3 @@ history:
     livres/entrepreneurs-forever-2014/emmanuelle-vidal-delagneau/en
   - >
     livres/entrepreneurs-forever-2014/emmanuelle-vidal-delagneau
-  - >
-    livres/entrepreneurs-forever-2014/florence-rollet/en
