@@ -1,0 +1,35 @@
+Title: en
+
+----
+
+Text: 
+
+As an Aeronautical Engineer, Alain Delpuech has changed his flight plan several times, leaving behind routine flights for the turbulence of change.  
+Initially he worked for Dassault Aviation on one of the finer points of the Rafale, but quickly realised that he was not in the right place.  « I needed a global vision. » 
+
+In 1989 he became a consultant for the defence and aeronautical section of Accenture.  A three week assignment sent him to a key account who was totally revamping its IT system.  The assignment lasted … four years, and Alain Delpuech would never again leave the world of IT:  « I learned how to make the complex simple, and that’s a key element in today’s world. »
+
+In 1996, when his wife had a professional opportunity in Lyon, he decided to complete his technical training with an MBA at EMLYON, and chose the English-speaking programme, which was twinned with the University of Cranfield (UK).  « I did it to improve my language skills; I was immersed in an Anglo-Saxon environment which broadened my horizons to include finance and strategy. »
+
+> When you explain what you do and deliver your promises, you gain in credibility and in trustworthiness, and hence in freedom.  But that is not enough.  You also have to take inspiration from the Americans, who are totally committed to their employability, adding resolutely to their CV new responsibilities, foreign languages, technological challenges and complex projects.
+
+He then set course towards Sanofi Pasteur MSD, a young joint venture between two leaders in the field of vaccines, Sanofi Pasteur and Merck.  « I enjoyed its culture marked by entrepreneurship, and its highly operational European organisation.  We had to start absolutely from scratch. »  For six years, he developed a number of IT system projects, consolidated the teams in five countries, and extended his responsibilities to include purchasing and real estate management, which formed the first steps towards a ‘’shared services’’ function. « And once everything was in place … I qot frightened of lapsing into a routine. »
+
+In 2002, Sanofi Pasteur proposed him a job: managing IT systems in France.  He was in charge of upscaling and implementing new processes for this jumbo jet: a team of 14,000 in France and North America, and a matrix organisation. It gave Alain Delpuech another opportunity over and above the task of managing all his teams: being in charge of the global infrastructures of one of the four group’s business applications (sales operations).  Adding expatriation to his experience, he spent three years in Pennsylvania, as opposite number for North America. 
+
+When he returned to Lyon at the end of 2010, the transformation of the Sanofi mother company was in its approach phase.  He began by taking over as ISD for Sanofi Pasteur.  And then he hesitated slightly when he was recommended as Head of IT infrastructures and services for the Sanofi group, in full consolidation phase at the time.  « Implementing a pre-defined strategy was going to be a heavy and difficult task, and very risky. »
+
+He made a six week diagnosis and took some clear-cut decisions: focus on key products and choice of top profiles for the lead positions...  « As soon as you start moving, things become less difficult.  If you just remain an observer, they become more and more difficult.  Of course, there is a lot of pressure; sometimes you hold your breath.  You need a team where everyone really trusts each other, and real solidarity. »
+
+Three years later, the programme is almost complete.  Today, Alain Delpuech coordinates a team of 800 people working in three continents and seventeen countries, with a dozen managers directly reporting from Sao Paulo to Singapore, three data centres, three Service desks and all the networks, equipment and collaborative tools… 
+
+Even if he has gained altitude, Alain Delpuech still enjoys the aerobatics of innovation.  « Big data and everything connected with it are really serious issues in the world of health.  Digital technology will continue to revolutionise our lives. »
+
+----
+
+Company: Director of infrastructures and IT services for the Sanofi group
+
+----
+
+Baseline: He experiences the I.T. revolution with one of the key world health players
+

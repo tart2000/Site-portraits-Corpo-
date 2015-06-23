@@ -12,6 +12,11 @@
           <a href="<?php echo $page->companyLink() ?>" target="_blank"><i class="fa fa-external-link company right"></i></a><h2><?php echo $page->company() ?></h2> 
         <?php endif ?>
         <h3><?php echo $page->baseline() ?>.</h3>
+        <em class="right"><?php if ($page->trad() != '') : ?>
+          <?php echo 'Traduction : '?>
+          <?php echo $page->trad() ?>
+          <?php endif ?>
+        </em>
       </div>
 
     </div>

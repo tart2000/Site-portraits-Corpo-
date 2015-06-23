@@ -13,6 +13,9 @@ fields:
   baseline: 
     label: Baseline
     type: textarea
+  trad: 
+    label: Traduction (Prénom, Nom)
+    type: text 
   text:
     label: Text
     type:  textarea
