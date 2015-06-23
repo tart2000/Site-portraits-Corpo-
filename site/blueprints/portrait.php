@@ -26,3 +26,7 @@ fields:
   text:
     label: Text
     type:  textarea
+  credit: 
+    label: Crédit photo (Prénom Nom)
+    type: text
+

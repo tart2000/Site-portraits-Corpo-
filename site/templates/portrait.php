@@ -60,7 +60,10 @@
           <?php echo $page->text()->kirbytext() ?>
           <hr>
           <?php if ($page->programme() != '') : ?>
-            <em>EM Lyon : <?php echo $page->programme() ?></em>
+            <em>EM Lyon : <?php echo $page->programme() ?></em></br>
+          <?php endif ?>
+          <?php if ($page->credit() != '') : ?>
+            <em>Crédit photo : <?php echo $page->credit() ?></em>
           <?php endif ?>
         </div>
       </div>

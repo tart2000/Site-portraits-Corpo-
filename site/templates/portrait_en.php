@@ -9,14 +9,9 @@
         <h1><?php echo $page->parent()->title()->html() ?></h1>
         <hr>
         <?php if ($page->parent()->companyLink() != '') : ?>
-          <a href="<?php echo $page->companyLink() ?>" target="_blank"><i class="fa fa-external-link company right"></i></a><h2><?php echo $page->company() ?></h2> 
+          <a href="<?php echo $page->parent()->companyLink() ?>" target="_blank"><i class="fa fa-external-link company right"></i></a><h2><?php echo $page->company() ?></h2> 
         <?php endif ?>
         <h3><?php echo $page->baseline() ?>.</h3>
-        <em class="right"><?php if ($page->trad() != '') : ?>
-          <?php echo 'Traduction : '?>
-          <?php echo $page->trad() ?>
-          <?php endif ?>
-        </em>
       </div>
 
     </div>
@@ -25,6 +20,20 @@
       <div class="col-md-8 col-md-offset-2">
         <div class="text">
           <?php echo $page->text()->kirbytext() ?>
+          <hr>
+          <?php if ($page->parent()->programme() != '') : ?>
+            <em>EM Lyon: <?php echo $page->parent()->programme() ?></em></br>
+          <?php endif ?>
+          <?php if ($page->parent()->credit() != '') : ?>
+            <em>Photo credit: <?php echo $page->parent()->credit() ?></em></br>
+          <?php endif ?>
+          <?php if ($page->parent()->parent()->trad() != '') : ?>
+            <em>Translation : <?php echo $page->parent()->parent()->trad() ?>
+              <?php if ($page->parent()->parent()->tradlink() != '') : ?>
+                <a href="<?php echo $page->parent()->parent()->tradlink() ?>" target="_blank"><i class="fa fa-external-link"></i></a>
+              <?php endif ?>
+            </em>
+          <?php endif ?>
         </div>
       </div>
     </div>

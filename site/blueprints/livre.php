@@ -24,6 +24,14 @@ fields:
     label: Lien client
     type: Url
     width: 1/2
+  trad: 
+    label: Traduction (Prénom, Nom)
+    type: text 
+    width: 1/2
+  tradlink:
+    label: Lien du traducteur
+    type: Url 
+    width: 1/2
   text:
     label: Text
     type:  textarea
