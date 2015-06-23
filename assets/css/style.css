@@ -90,6 +90,38 @@ p:first-of-type::first-letter {  float: left; color: #F7A600; font-size: 65px; l
 .po {
     font-size: 1.2em;
 }
+blockquote {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 20px;
+    margin-bottom: 45px;
+    font-size: 1.2em;
+    font-style: italic;
+    // background-color: #f7f7f7;
+    border: 0px;
+}
+blockquote::before {
+    font-family: "FontAwesome";
+    content: "\f10d";
+    width: 20px;
+    height: 20px;
+    font-size: 35px;
+    position: absolute;
+    left: 10px;
+    color: #efefef;
+}
+blockquote::after {
+    font-family: "FontAwesome";
+    content: "\f10e";
+    width: 20px;
+    height: 20px;
+    font-size: 35px;
+    position: relative;
+    float: right;
+    right: 25px;
+    top: -15px;
+    color: #efefef;
+}
 .footer {
     margin-top: 30px;
     margin-bottom: 30px;
