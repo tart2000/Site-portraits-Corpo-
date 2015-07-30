@@ -2,7 +2,7 @@
 
   <main class="container bmt" role="main">
     <div class="row bmt center">
-      <a href="<?php echo $page->parent()->url() ?>">Retour</a>
+      <a href="<?php echo $page->parent()->url() ?>"><?php echo $page->parent()->title() ?></a>
     </div>
     <div class="row mt">
       <div class="col-md-1 col-md-offset-1">
@@ -40,9 +40,19 @@
           <?php if ($page->programme() != '') : ?>
             <em>EM Lyon : <?php echo $page->programme() ?></em></br>
           <?php endif ?>
-          <?php if ($page->credit() != '') : ?>
-            <em>Crédit photo : <?php echo $page->credit() ?></em>
+          <?php if ($page->parent()->trad() != '') : ?>
+            <em>Traduction anglaise : 
+              <?php if ($page->parent()->tradLink() != '') : ?>
+                <a href="<?php echo $page->parent()->tradLink() ?>" target="_blank"><?php echo $page->parent()->trad() ?></a></br>
+              <?php else : ?>
+                <?php echo $page->parent()->trad() ?></br>
+              <?php endif ?>
+            </em>
           <?php endif ?>
+          <?php if ($page->credit() != '') : ?>
+            <em>Crédit photo : <?php echo $page->credit() ?></em></br>
+          <?php endif ?>
+          <em>Date de parution : <?php echo $page->parent()->date('d/m/y','parution') ?></em>
         </div>
       </div>
     </div>

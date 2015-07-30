@@ -1,4 +1,8 @@
-Title: Entrepreneurs Forever 2015 - Le pouvoir de la liberté
+Title: Entrepreneurs Forever 2015
+
+----
+
+Baseline: Le pouvoir de la liberté
 
 ----
 
@@ -6,11 +10,19 @@ Parution: 2015-06-01
 
 ----
 
-Trad: Carole Bauzor
+Trad: Carole Bausor, ILTC
 
 ----
 
 Tradlink: http://www.iltc.fr/
+
+----
+
+Design: Le Team
+
+----
+
+DesignLink: http://www.leteam.fr/
 
 ----
 

@@ -9,8 +9,11 @@
             <?php endif ?>
         </div>
         <div class="col-md-8">
-          <h1><i class="fa fa-book"></i>  <?php echo $page->title()->html() ?></h1>
-          <em>Date de parution : <?php echo $page->date('d/m/y','parution') ?> - <?php echo $page->children()->count() ?> portraits</em>
+          <div class="bmb center">
+            <i class="fa fa-book fa-4x"></i>
+            <h1> <?php echo $page->title()->html() ?></h1>
+            <h1>" <?php echo $page->baseline() ?> "</h1>
+          </div>
           <div class="row">
             <?php if ($page->images() != '') : ?>
               <div class="col-xs-9">
@@ -24,9 +27,12 @@
                 <?php echo $page->text()->kirbytext() ?>
               </div>
             <?php endif ?>
+            <div class="right mt mb">
+              <?php snippet('meta') ?>
+            </div>
           </div>
           <?php if ($page->documents() != '') : ?>
-            <div class="row center">
+            <div class="row center mt mb">
               <a href="<?php echo $page->documents()->first()->url() ?>" download class="btn btn-default">Télécharger en format PDF <i class="fa fa-download"> </i></a>
             </div>
           <?php endif ?>

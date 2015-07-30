@@ -5,7 +5,7 @@ Title: Home
 Text: 
 ##Les portraits d’entrepreneurs et les histoires d’entreprises
 
-####*Comment le story-telling diffuse l’esprit d’entreprendre*
+###Comment le story-telling diffuse l’esprit d’entreprendre
 
 J’ai grandi dans l’idée que la vie est une aventure. La vie professionnelle, à travers l’entrepreneuriat en particulier, peut être un formidable terrain pour développer ses compétences, se confronter à ses forces et ses limites, se surprendre et s’épanouir, interagir, construire et innover avec les autres, contribuer à la transformation du monde
  

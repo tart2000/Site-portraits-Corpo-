@@ -1,15 +1,17 @@
 
 
 <div class="container">
-  <h2><?php echo page('livres')->title() ?></h2>
+  <h1><?php echo page('livres')->title() ?></h1>
   <div class="row">
       <?php foreach(page('livres')->children() as $livre): ?>
         <div class="col-md-12">
           <div class="row">
             <?php if ($livre->images() != '') : ?>
               <div class="col-sm-10 col-xs-9">
-                <h2><i class="fa fa-book"></i>  <a href="<?php echo $livre->url() ?>"><?php echo $livre->title()->html() ?></a></h2>
-                <em>Date de parution : <?php echo $livre->date('d/m/y','parution') ?> - <?php echo $livre->children()->count() ?> portraits</em>
+                <div class="mb">
+                  <h2><i class="fa fa-book"></i>  <a href="<?php echo $livre->url() ?>"><?php echo $livre->title()->html() ?><?php if ($livre->baseline() != '') : ?> - <?php echo $livre->baseline() ?><?php endif ?></a></h2>
+                  <em>Date de parution : <?php echo $livre->date('d/m/y','parution') ?> - <?php echo $livre->children()->count() ?> portraits</em>
+                </div>
                 <?php echo $livre->text()->kirbytext() ?>
               </div>
               <div class="col-sm-2 col-xs-3">
@@ -17,8 +19,10 @@
               </div>
             <?php else : ?>
               <div class="col-md-12">
-                <h2><i class="fa fa-book"></i>  <a href="<?php echo $livre->url() ?>"><?php echo $livre->title()->html() ?></a></h2>
-                <em>Date de parution : <?php echo $livre->date('d/m/y','parution') ?> - <?php echo $livre->children()->count() ?> portraits</em>
+                <div class="mb">
+                  <h2><i class="fa fa-book"></i>  <a href="<?php echo $livre->url() ?>"><?php echo $livre->title()->html() ?><?php if ($livre->baseline() != '') : ?> - <?php echo $livre->baseline() ?><?php endif ?></a></h2>
+                  <em>Date de parution : <?php echo $livre->date('d/m/y','parution') ?> - <?php echo $livre->children()->count() ?> portraits</em>
+                </div>
                 <?php echo $livre->text()->kirbytext() ?>
               </div>
             <?php endif ?>

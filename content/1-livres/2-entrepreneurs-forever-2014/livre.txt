@@ -1,4 +1,8 @@
-Title: Entrepreneurs Forever 2014 - Vivre c'est transmettre
+Title: Entrepreneurs Forever 2014
+
+----
+
+Baseline: Vivre c'est transmettre
 
 ----
 
@@ -6,11 +10,19 @@ Parution: 2014-09-12
 
 ----
 
+Design: Le Team
+
+----
+
+DesignLink: http://www.leteam.fr/
+
+----
+
 Embbedlink: 
 
 ----
 
-Trad: Carole Bauzor
+Trad: Carole Bausor, ILTC
 
 ----
 

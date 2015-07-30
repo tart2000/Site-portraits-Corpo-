@@ -6,15 +6,13 @@
       <div class= "col-md-12 center bmb">
         <h2><?php echo $page->text() ?></h2>
       </div>
-      <?php $stack = array(); ?>
       <?php foreach (page('livres')->children() as $livre) : ?>
+        <h1><?php echo $livre->title() ?> - <?php echo $livre->baseline() ?></h1>
+        <hr>
         <?php foreach ($livre->children() as $p) : ?>
-          <?php array_push($stack, $p) ?>
+          <?php snippet('portraits-short', array('p' => $p)) ?>
         <?php endforeach ?>
-      <?php endforeach ?>
-      <?php shuffle($stack) ?>
-      <?php foreach ($stack as $p) : ?>
-        <?php snippet('portraits-short', array('p' => $p)) ?>
+        <div class="clearfix"></div>
       <?php endforeach ?>
 
     </div>

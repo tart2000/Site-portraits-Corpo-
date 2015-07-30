@@ -8,6 +8,9 @@ fields:
   title:
     label: Titre
     type:  text
+  baseline: 
+    label: Baseline
+    type: text
   parution:
     label: Date de parution
     type:  date
@@ -31,6 +34,14 @@ fields:
   tradlink:
     label: Lien du traducteur
     type: Url 
+    width: 1/2
+  design: 
+    label: Design 
+    type: text
+    width:1/2
+  designLink: 
+    label: Lien du concepteur
+    type: Url
     width: 1/2
   text:
     label: Text
